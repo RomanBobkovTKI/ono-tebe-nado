@@ -33,9 +33,6 @@
   height: 105px;
 }
 
-.header__logo-image {
-}
-
 .header__address {
   grid-column: 6/7;
 }
