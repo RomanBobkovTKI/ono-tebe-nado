@@ -1,0 +1,12 @@
+.address {
+  grid-column: 6/7;
+}
+
+.address__link {
+  display: block;
+  line-height: 24.3px;
+}
+
+.address__link:first-child {
+  padding: 5px 0 0 0;
+}
