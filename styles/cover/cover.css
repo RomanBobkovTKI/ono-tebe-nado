@@ -1,5 +1,6 @@
 .cover {
-  height: 757px;
+  position: relative;
+  min-height: 757px;
   background-image: url('../../images/cover.jpg');
   background-size: cover;
   background-position: center;
@@ -7,7 +8,7 @@
 
 .cover__title {
   color: var(--white-color);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 100px;
   font-weight: 700;
   line-height: 115px;
@@ -40,7 +41,7 @@
 .cover__description-text {
   padding: 10px 0 0 0;
   text-transform: uppercase;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
@@ -54,7 +55,7 @@
   cursor: pointer;
   opacity: 100%;
   padding: 12px 32px 11px 31px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 25.83px;

@@ -19,14 +19,6 @@
   white-space: nowrap;
 }
 
-.header__links-list-item {
-  text-decoration: underline;
-}
-
-.header__links-list-item_no-bullit {
-  list-style: none;
-}
-
 .header__logo {
   display: block;
   grid-column: 4/5;
