@@ -1,0 +1,65 @@
+.card-link {
+  display: block;
+  height: 100%;
+}
+
+.card {
+  position: relative;
+  height: 100%;
+}
+
+.card__image-type {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card_type_film {
+  background-image: url('../../images/card-lot-01.jpg');
+}
+
+.card_type_book {
+  background-image: url('../../images/card-lot-02.jpg');
+}
+
+.card_type_picture {
+  background-image: url('../../images/card-lot-03.jpg');
+}
+
+.card__content {
+  padding: 52px 40px 48px 40px;
+  height: 100%;
+}
+
+.card__header {
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  line-height: 26.4px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.card-text__content {
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--white-color);
+}
+
+.aligned-card-text-down {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.aligned-card-text-center {
+  display: flex;
+  flex-direction: column;
+}
+
+.aligned-card-text-downer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

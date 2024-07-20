@@ -1,0 +1,36 @@
+.lots {
+  padding: 179px 24px 0 24px;
+}
+
+.lots__header {
+  padding: 0 0 0 40px;
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+  font-size: 40px;
+  line-height: 46.96px;
+}
+
+.lots__card-list {
+  padding: 27px 0 0 0;
+  list-style: none;
+  display: flex;
+  flex-grow: 1;
+  gap: 25px 25px;
+  flex-wrap: wrap;
+}
+
+.lots__card-list-item {
+  min-height: 563px;
+  width: 334px;
+}
+
+.lots__link-more {
+  text-transform: lowercase;
+  text-decoration: underline;
+  display: block;
+  padding: 28px 0 0 38px;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  line-height: 23.48px;
+  color: var(--black-color);
+}

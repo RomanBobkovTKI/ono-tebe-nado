@@ -1,0 +1,39 @@
+.header {
+  padding: 92px 24px 97px 24px;
+  display: grid;
+  grid-template-columns: 26.52px 391.48px 36px 148px 184px 240.52px;
+  font-size: 18px;
+  line-height: 21.13px;
+  color: var(--black-color);
+}
+
+.header__menu {
+  padding: 44px 0 0 26.52px;
+}
+
+.header__links-list {
+  grid-column: 2/3;
+  list-style: circle;
+  display: flex;
+  column-gap: 31.48px;
+  white-space: nowrap;
+}
+
+.header__logo {
+  display: block;
+  grid-column: 4/5;
+  height: 105px;
+}
+
+.header__address {
+  grid-column: 6/7;
+}
+
+.header__address__link {
+  display: block;
+  line-height: 24.3px;
+}
+
+.header__address__link:first-child {
+  padding: 5px 0 0 0;
+}

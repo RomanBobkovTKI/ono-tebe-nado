@@ -1,0 +1,19 @@
+.header__menu {
+  padding: 44px 0 0 26.52px;
+}
+
+.header__links-list {
+  grid-column: 2/3;
+  list-style: circle;
+  display: flex;
+  column-gap: 31.48px;
+  white-space: nowrap;
+}
+
+.header__links-list-item {
+  text-decoration: underline;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
