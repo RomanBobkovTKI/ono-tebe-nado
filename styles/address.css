@@ -7,6 +7,6 @@
   line-height: 24.3px;
 }
 
-.address__link:first-child {
+.footer__address-wrapper {
   padding: 5px 0 0;
 }
